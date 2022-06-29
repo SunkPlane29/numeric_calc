@@ -14,7 +14,7 @@ impl DataFile {
             .create(true)
             .open(path).unwrap();
 
-        DataFile{file}
+        DataFile{f: file}
     }
 
     //TODO: create more write methods, and possibly alse read methods
